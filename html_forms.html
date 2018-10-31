@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Signup Form</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+    <body>
+        <h2>My Signup Form</h2>
+        <form method="POST" action="signup.php">
+            <fieldset>
+                <legend>Registration form</legend>
+                
+            <label for="firstname">Firstname</label>
+            <input type="text"name="firstname"id="firstname"/>
+            <br/>
+            <label for="lastname">Lastname</label>
+            <input type="text"name="lastname"id="lastname"/>
+            <br/>
+            <label for="email">email</label>
+            <input type="email"name="email"id="email"/>
+            <br>
+            <label for="password">Password</label>
+            <input type="password"name="password"id="password"/>
+            <br/>
+            <label for="confirm password">Confirm Password</label> <input type="password"name="confirm password"id="confirm password"/>
+            <br/>
+            <label for="phone number">Phone number</label>
+            <input type="phone number"name="phone number"id="phone number"/>
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio"name="gender" id="female" value="female"/>  
+            <label for="female">Female</label>
+            <br>
+            <input type="radio"name="gender"id="male"value="male">
+            <label for="male">Male</label>
+            <br>
+            <label for="country">Country</label>
+            <select name="country"id="country">
+                <option value="nigeria">Nigeria</option>
+                <option value="united states of america">United states of America</option>
+                <option value="Australia">Australia</option>
+                <option value="China">China</option>
+                <option value="Togo">Togo</option>
+                <br>
+                <input type="submit"name="submit"id="submit"value="submit">
+            </select>
+            </fieldset>
+        </form>
+    </body>
+</html>
